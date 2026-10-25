@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "full pipeline",
+    "status": "32/32",
+    "exact": 17,
+    "precision": 0.944,
+    "recall": 0.876,
+    "f1": 0.909
+  },
+  {
+    "variant": "no workflow association",
+    "status": "32/32",
+    "exact": 17,
+    "precision": 0.95,
+    "recall": 0.881,
+    "f1": 0.914
+  },
+  {
+    "variant": "no hint bonus",
+    "status": "32/32",
+    "exact": 17,
+    "precision": 0.95,
+    "recall": 0.881,
+    "f1": 0.914
+  },
+  {
+    "variant": "no per-case exclusion",
+    "status": "32/32",
+    "exact": 17,
+    "precision": 0.95,
+    "recall": 0.881,
+    "f1": 0.914
+  }
+]

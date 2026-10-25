@@ -1,0 +1,18 @@
+You are reading a screenshot of an internal admin console (Northstar Shop).
+Extract every fact visible in it as a JSON array. Each item is one object:
+
+  {"system_id": ..., "resource_id": ..., "record_type": ..., "status": ...,
+   "subjects": [identifiers]}
+
+- system_id: owning platform (account_service, search_service, analytics_platform,
+  integration_service, backup_service, export_service, security_service,
+  support_platform, identity_service, marketing_platform, object_storage, cache_service)
+- record_type: USER_PROFILE, SEARCH_INDEX_ENTRY, CACHE_ENTRY, USER_EXPORT,
+  SUPPORT_ATTACHMENT, SUPPORT_MESSAGE, MARKETING_PROFILE, ANALYTICS_PROFILE,
+  PRODUCT_TELEMETRY, SECURITY_AUDIT_LOG, LEGAL_HOLD_RECORD, BACKUP_ARCHIVE,
+  ACCOUNT_TOMBSTONE, DATA_FLOW
+- status: PRESENT, ABSENT, IDENTIFIABLE, ANONYMIZED, REDACTED, ACTIVE, DISABLED,
+  BLOCKED - what the screen shows about that resource
+- subjects: email addresses / user_xx references visible for the record
+
+Return only the JSON array.

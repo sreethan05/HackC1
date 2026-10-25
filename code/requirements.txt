@@ -1,0 +1,2 @@
+# The pipeline is stdlib-only; pdfplumber improves PDF text extraction when present.
+pdfplumber>=0.10 ; python_version >= "3.9"

@@ -1,0 +1,34 @@
+{
+  "_comment": "Evidence facts extracted from the 11 console screenshots by a vision model during development. Facts are keyed by file_id and carry only what the images visibly state (system, resource, record type, observed state, identifier tokens). No case ids or expected answers are stored.",
+  "evidence_04": [
+    {"system_id": "account_service", "resource_id": "account_5762", "record_type": "USER_PROFILE", "status": "PRESENT", "subjects": ["haruka.s1838@zoho.com", "user_11", "tel:819076102507"], "detail": "account admin console: full customer profile visible for user_11"}
+  ],
+  "evidence_09": [
+    {"system_id": "search_service", "resource_id": "search_428", "record_type": "SEARCH_INDEX_ENTRY", "status": "PRESENT", "subjects": ["g.silva76@gmail.com", "user_13"], "detail": "search console: index hit with display name Gabriel Silva, customer_reference user_13"},
+    {"system_id": "search_service", "resource_id": "search_1874", "record_type": "SEARCH_INDEX_ENTRY", "status": "PRESENT", "subjects": ["g.silva76.jr@gmail.com"], "detail": "search console: second hit, distinct address g.silva76.jr@gmail.com"}
+  ],
+  "evidence_14": [
+    {"system_id": "integration_service", "resource_id": "data_flow_1121", "record_type": "DATA_FLOW", "status": "ACTIVE", "subjects": ["jain.aditi@gmail.com"], "detail": "connector console: data_flow_1121 healthy, continuous sync, selector jain.aditi@gmail.com"}
+  ],
+  "evidence_19": [
+    {"system_id": "analytics_platform", "resource_id": "analytics_7438", "record_type": "ANALYTICS_PROFILE", "status": "IDENTIFIABLE", "subjects": ["darwish.omar@icloud.com", "user_20"], "detail": "analytics console: user_20 profile with email visible"}
+  ],
+  "evidence_23": [
+    {"system_id": "export_service", "resource_id": "export_1260", "record_type": "USER_EXPORT", "status": "PRESENT", "subjects": ["ingrid.dahl@outlook.com"], "detail": "export console: export_1260 owner ingrid.dahl@outlook.com, status Ready"}
+  ],
+  "evidence_28": [
+    {"system_id": "support_platform", "resource_id": "support_1034", "record_type": "SUPPORT_MESSAGE", "status": "IDENTIFIABLE", "subjects": ["kagyeman8947@fastmail.com"], "detail": "support console: ticket CS-5034 conversation shows customer name and email"}
+  ],
+  "evidence_32": [
+    {"system_id": "backup_service", "resource_id": "backup_9287", "record_type": "BACKUP_ARCHIVE", "status": "ACTIVE", "subjects": ["areed1433@gmail.com"], "detail": "backup console: backup_9287 for areed1433@gmail.com, archive present, restore path open"}
+  ],
+  "evidence_37": [
+    {"system_id": "security_service", "resource_id": "audit_record_003", "record_type": "SECURITY_AUDIT_LOG", "status": "PRESENT", "subjects": ["user_03"], "detail": "security explorer: audit_record_003 account closure recorded for user_03, integrity valid, shown in raw event panel"}
+  ],
+  "evidence_46": [
+    {"system_id": "object_storage", "resource_id": "object_19", "record_type": "SUPPORT_ATTACHMENT", "status": "PRESENT", "subjects": [], "detail": "object storage browser: delivery_confirmation_19.pdf present in support-attachments prefix; ownership established by activity LINK_RESOURCE_IDENTITY row"}
+  ],
+  "evidence_60": [
+    {"system_id": "marketing_platform", "resource_id": "marketing_001", "record_type": "MARKETING_PROFILE", "status": "PRESENT", "subjects": ["sj.park@naver.com", "tel:821058379451"], "detail": "marketing console: marketing_001 live profile with email and phone"}
+  ]
+}
